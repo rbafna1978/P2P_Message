@@ -27,20 +27,27 @@ struct ChatDetailView: View {
                         }
                     }.padding()
                 }
+                // Automatically keep the latest message in view
                 .onChange(of: messageStore.forContact(contact.id).count) { _ in
-                    // naive autoscroll
+                    if let last = messageStore.forContact(contact.id).last?.id {
+                        withAnimation { proxy.scrollTo(last, anchor: .bottom) }
+                    }
                 }
             }
 
             HStack {
                 TextField("Type a secure message", text: $draft)
                     .textFieldStyle(.roundedBorder)
-                Button("Send") {
+                Button(action: {
                     let trimmed = draft.trimmingCharacters(in: .whitespacesAndNewlines)
                     guard !trimmed.isEmpty else { return }
                     peerService.send(message: trimmed, to: contact)
                     draft = ""
+                }) {
+                    Image(systemName: "paperplane.fill")
+                        .padding(.horizontal, 4)
                 }
+                .disabled(draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                 .buttonStyle(.borderedProminent)
             }
             .padding()
