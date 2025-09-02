@@ -170,12 +170,20 @@ extension PeerService: MCNearbyServiceAdvertiserDelegate, MCNearbyServiceBrowser
     func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
         // Try identity frame first
         if let idFrame = try? parseIdentityFrame(data) {
-            // Map to a known contact
+            // Map to a known contact; if unknown, add it automatically so both
+            // devices retain each other after the first handshake.
             if let contact = contactStore.contact(forSigningKey: idFrame.signingPubKey) {
                 DispatchQueue.main.async { self.connectedContact = contact }
             } else {
-                // Auto-add unknown identity? Safer: do not. Require QR pairing.
-                print("Unknown identity; not auto-adding.")
+                let contact = Contact(
+                    displayName: idFrame.displayName,
+                    agreementPubKey: idFrame.agreementPubKey,
+                    signingPubKey: idFrame.signingPubKey
+                )
+                DispatchQueue.main.async {
+                    self.contactStore.add(contact)
+                    self.connectedContact = contact
+                }
             }
             return
         }
