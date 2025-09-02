@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		99EB8E932E66C88D001EDD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EB8E782E66C88B001EDD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EB8E7F2E66C88B001EDD00;
+			remoteInfo = PeerShield;
+		};
+		99EB8E9D2E66C88D001EDD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EB8E782E66C88B001EDD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EB8E7F2E66C88B001EDD00;
+			remoteInfo = PeerShield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99EB8E802E66C88B001EDD00 /* PeerShield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerShield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EB8E922E66C88D001EDD00 /* PeerShieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerShieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EB8E9C2E66C88D001EDD00 /* PeerShieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerShieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		99EB8E822E66C88B001EDD00 /* PeerShield */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PeerShield;
+			sourceTree = "<group>";
+		};
+		99EB8E952E66C88D001EDD00 /* PeerShieldTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PeerShieldTests;
+			sourceTree = "<group>";
+		};
+		99EB8E9F2E66C88D001EDD00 /* PeerShieldUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PeerShieldUITests;
+			sourceTree = "<group>";
+		};
+		99EB8EAF2E66C956001EDD00 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99EB8EB42E66C991001EDD00 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99EB8EC32E66CA22001EDD00 /* Networking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		99EB8EC62E66CA7B001EDD00 /* UI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EB8E7D2E66C88B001EDD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E8F2E66C88D001EDD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E992E66C88D001EDD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EB8E772E66C88B001EDD00 = {
+			isa = PBXGroup;
+			children = (
+				99EB8EC62E66CA7B001EDD00 /* UI */,
+				99EB8EC32E66CA22001EDD00 /* Networking */,
+				99EB8EB42E66C991001EDD00 /* Services */,
+				99EB8EAF2E66C956001EDD00 /* Models */,
+				99EB8E822E66C88B001EDD00 /* PeerShield */,
+				99EB8E952E66C88D001EDD00 /* PeerShieldTests */,
+				99EB8E9F2E66C88D001EDD00 /* PeerShieldUITests */,
+				99EB8E812E66C88B001EDD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EB8E812E66C88B001EDD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EB8E802E66C88B001EDD00 /* PeerShield.app */,
+				99EB8E922E66C88D001EDD00 /* PeerShieldTests.xctest */,
+				99EB8E9C2E66C88D001EDD00 /* PeerShieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EB8E7F2E66C88B001EDD00 /* PeerShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EB8EA62E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShield" */;
+			buildPhases = (
+				99EB8E7C2E66C88B001EDD00 /* Sources */,
+				99EB8E7D2E66C88B001EDD00 /* Frameworks */,
+				99EB8E7E2E66C88B001EDD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				99EB8E822E66C88B001EDD00 /* PeerShield */,
+				99EB8EAF2E66C956001EDD00 /* Models */,
+				99EB8EB42E66C991001EDD00 /* Services */,
+				99EB8EC32E66CA22001EDD00 /* Networking */,
+				99EB8EC62E66CA7B001EDD00 /* UI */,
+			);
+			name = PeerShield;
+			packageProductDependencies = (
+			);
+			productName = PeerShield;
+			productReference = 99EB8E802E66C88B001EDD00 /* PeerShield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99EB8E912E66C88D001EDD00 /* PeerShieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EB8EA92E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShieldTests" */;
+			buildPhases = (
+				99EB8E8E2E66C88D001EDD00 /* Sources */,
+				99EB8E8F2E66C88D001EDD00 /* Frameworks */,
+				99EB8E902E66C88D001EDD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EB8E942E66C88D001EDD00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99EB8E952E66C88D001EDD00 /* PeerShieldTests */,
+			);
+			name = PeerShieldTests;
+			packageProductDependencies = (
+			);
+			productName = PeerShieldTests;
+			productReference = 99EB8E922E66C88D001EDD00 /* PeerShieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99EB8E9B2E66C88D001EDD00 /* PeerShieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EB8EAC2E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShieldUITests" */;
+			buildPhases = (
+				99EB8E982E66C88D001EDD00 /* Sources */,
+				99EB8E992E66C88D001EDD00 /* Frameworks */,
+				99EB8E9A2E66C88D001EDD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EB8E9E2E66C88D001EDD00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				99EB8E9F2E66C88D001EDD00 /* PeerShieldUITests */,
+			);
+			name = PeerShieldUITests;
+			packageProductDependencies = (
+			);
+			productName = PeerShieldUITests;
+			productReference = 99EB8E9C2E66C88D001EDD00 /* PeerShieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EB8E782E66C88B001EDD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					99EB8E7F2E66C88B001EDD00 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					99EB8E912E66C88D001EDD00 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 99EB8E7F2E66C88B001EDD00;
+					};
+					99EB8E9B2E66C88D001EDD00 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 99EB8E7F2E66C88B001EDD00;
+					};
+				};
+			};
+			buildConfigurationList = 99EB8E7B2E66C88B001EDD00 /* Build configuration list for PBXProject "PeerShield" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EB8E772E66C88B001EDD00;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 99EB8E812E66C88B001EDD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EB8E7F2E66C88B001EDD00 /* PeerShield */,
+				99EB8E912E66C88D001EDD00 /* PeerShieldTests */,
+				99EB8E9B2E66C88D001EDD00 /* PeerShieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EB8E7E2E66C88B001EDD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E902E66C88D001EDD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E9A2E66C88D001EDD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EB8E7C2E66C88B001EDD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E8E2E66C88D001EDD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EB8E982E66C88D001EDD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99EB8E942E66C88D001EDD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EB8E7F2E66C88B001EDD00 /* PeerShield */;
+			targetProxy = 99EB8E932E66C88D001EDD00 /* PBXContainerItemProxy */;
+		};
+		99EB8E9E2E66C88D001EDD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EB8E7F2E66C88B001EDD00 /* PeerShield */;
+			targetProxy = 99EB8E9D2E66C88D001EDD00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99EB8EA42E66C88D001EDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EB8EA52E66C88D001EDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EB8EA72E66C88D001EDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH25JD7GPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan peer QR codes for secure pairing";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Used to discover nearby peers for encrypted messaging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99EB8EA82E66C88D001EDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YH25JD7GPG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan peer QR codes for secure pairing";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Used to discover nearby peers for encrypted messaging";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99EB8EAA2E66C88D001EDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeerShield";
+			};
+			name = Debug;
+		};
+		99EB8EAB2E66C88D001EDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PeerShield";
+			};
+			name = Release;
+		};
+		99EB8EAD2E66C88D001EDD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerShield;
+			};
+			name = Debug;
+		};
+		99EB8EAE2E66C88D001EDD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rishit.PeerShieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerShield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EB8E7B2E66C88B001EDD00 /* Build configuration list for PBXProject "PeerShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB8EA42E66C88D001EDD00 /* Debug */,
+				99EB8EA52E66C88D001EDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EB8EA62E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB8EA72E66C88D001EDD00 /* Debug */,
+				99EB8EA82E66C88D001EDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EB8EA92E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB8EAA2E66C88D001EDD00 /* Debug */,
+				99EB8EAB2E66C88D001EDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EB8EAC2E66C88D001EDD00 /* Build configuration list for PBXNativeTarget "PeerShieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB8EAD2E66C88D001EDD00 /* Debug */,
+				99EB8EAE2E66C88D001EDD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EB8E782E66C88B001EDD00 /* Project object */;
+}
