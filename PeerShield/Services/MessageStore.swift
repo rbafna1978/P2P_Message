@@ -21,6 +21,10 @@ final class MessageStore: ObservableObject {
         var arr = messages[m.contactID] ?? []
         arr.append(m)
         messages[m.contactID] = arr.sorted(by: { $0.timestamp < $1.timestamp })
+
+        // Manually notify listeners because mutating a dictionary key
+        // does not trigger the `@Published` publisher.
+        objectWillChange.send()
         persist()
     }
 
